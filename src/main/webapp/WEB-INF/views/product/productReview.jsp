@@ -152,7 +152,7 @@ $(function() {
 										<h1>${ProductVo.proName }</h1>
 
 										<h3>
-											<b>${ProductVo.proPrice}</b>
+											<b>${ProductVo.proPrice}원</b>
 										</h3>
 
 

@@ -104,10 +104,10 @@
 											alt="" style="max-width: 100000px; height: auto;" /></span>
 									</div>
 									<div class="col-6 col-12-small">
-										<h1>상품 이름</h1>
+										<h1>${ProductVo.proName }</h1>
 
 										<h3>
-											<b>2000원</b>
+											<b>${ProductVo.proPrice }</b>
 										</h3>
 
 
