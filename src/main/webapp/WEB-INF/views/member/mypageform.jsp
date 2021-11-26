@@ -56,12 +56,13 @@
 
 
 									<ul class="alt">
-										<li><a href="/mysiteB/user?a=orderlist">주문 내역 조회</a></li>
-										<li><a href="#">찜한 상품 목록</a></li>
-										<li><a href="#">쿠폰</a></li>
+										<li><a href="/mysiteB/orderInfo?a=list&memNo=${authUser.memNo}">주문 내역 조회</a></li>
+										<li><a href="/mysiteB/user?a=wishform">찜한 상품 목록</a></li>
+										<li><a href="/mysiteB/user?a=coupon">쿠폰</a></li>
 										<li><a href="#">적립금 조회</a></li>
-										<li><a href="#">내가 쓴 글 보기</a></li>
+										<li><a href="/mysiteB/user?a=review">내가 쓴 글 보기</a></li>
 										<li><a href="/mysiteB/user?a=modifyform">회원 정보 수정</a></li>
+										<li><a href="/mysiteB/user?a=deleteform">회원 탈퇴</a></li>
 									</ul>
 
 								</div>
