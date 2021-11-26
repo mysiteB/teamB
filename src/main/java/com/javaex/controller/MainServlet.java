@@ -22,7 +22,7 @@ public class MainServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		request.setCharacterEncoding("UTF-8");
 		
-		System.out.println("ProductServlet.doGet() 호출");
+		System.out.println("ProductServlet.doGet()");
 
 //		WebUtil.redirect(request, response, "/WEB-INF/views/main/index.jsp");
 		RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/views/main/index.jsp");
